@@ -1,6 +1,6 @@
 # GoogleFloodHub-data-extractor
 
-This repository contains code to query the [Google FloodHub](https://sites.research.google/floods/l/0/0/3) (beta) API. As of October 2024, the API is focused on real-time forecasts and grants access to data issued at the earliest in July of 2024. Later, this is expected to be complemented with historical data spanning several decades.
+This repository contains a script to query the [Google FloodHub](https://sites.research.google/floods/l/0/0/3) (beta) API. As of October 2024, the API is focused on real-time forecasts and grants access to data issued at the earliest in July of 2024. Later, this is expected to be complemented with historical data spanning several decades.
 
 When encountering a bug (or when the API itself is updated), please contact [toldenburg@rodekruis.nl](mailto:toldenburg@rodekruis.nl).
 
@@ -11,7 +11,7 @@ When encountering a bug (or when the API itself is updated), please contact [tol
     git clone [repo URL]
     cd GoogleFloodHub-data-extractor
     ```
-2. Install the required dependencies
+2. (Optional) Install the required dependencies
     ```sh
     pip install -r requirements.txt
     ```
@@ -40,7 +40,7 @@ python3 main.py Mali 01-10-2024 07-10-2024
 
 ## Dependencies
 
-See `requirements.txt`.
+See `requirements.txt`. Note: only very basic functionality is used.
 
 
 ## License
